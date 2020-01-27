@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Felicia.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{A2259189-E20A-4F85-9101-4A7143BF1A07}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Felicia.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\FeliciaEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{E8E189F3-DCCF-4C27-A898-ACE95F999C0D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\Android">
+      <UniqueIdentifier>{1B6C7B98-66EF-45F2-A228-B3C7CEFDA3B6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Android\AndroidEngine.ini">
+      <Filter>Config\Android</Filter>
+    </None>
+    <Filter Include="Config\IOS">
+      <UniqueIdentifier>{0621D55A-4132-4224-8C87-39F4EF0DB3A3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\IOS\IOSEngine.ini">
+      <Filter>Config\IOS</Filter>
+    </None>
+    <Filter Include="Config\Linux">
+      <UniqueIdentifier>{025A3F37-1B52-4E5C-AAB5-9EAC1F3CAEBB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Linux\LinuxEngine.ini">
+      <Filter>Config\Linux</Filter>
+    </None>
+    <Filter Include="Config\Mac">
+      <UniqueIdentifier>{B140D3A9-10D8-412D-A77D-DE53D379A53D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Mac\MacEngine.ini">
+      <Filter>Config\Mac</Filter>
+    </None>
+    <Filter Include="Config\PS4">
+      <UniqueIdentifier>{090C2491-E083-4974-B4C3-50A5B7BD80A3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\PS4\PS4Engine.ini">
+      <Filter>Config\PS4</Filter>
+    </None>
+    <Filter Include="Config\Switch">
+      <UniqueIdentifier>{8A77AAB7-EE2F-4D78-9332-CA50961A4521}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Switch\SwitchEngine.ini">
+      <Filter>Config\Switch</Filter>
+    </None>
+    <Filter Include="Config\Windows">
+      <UniqueIdentifier>{FB826FF1-622E-4F47-8E8C-EC45C0E08DA9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Windows\WindowsEngine.ini">
+      <Filter>Config\Windows</Filter>
+    </None>
+    <Filter Include="Config\XboxOne">
+      <UniqueIdentifier>{5A8D97EF-2E91-4909-B0F1-57A7B5787CED}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\XboxOne\XboxOneEngine.ini">
+      <Filter>Config\XboxOne</Filter>
+    </None>
+    <Filter Include="Source\Felicia">
+      <UniqueIdentifier>{580D61E3-918C-4768-8EEA-AABCA240A07F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Felicia\Felicia.Build.cs">
+      <Filter>Source\Felicia</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Felicia\Felicia.cpp">
+      <Filter>Source\Felicia</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Felicia\Felicia.h">
+      <Filter>Source\Felicia</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Felicia\FeliciaGameModeBase.cpp">
+      <Filter>Source\Felicia</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Felicia\FeliciaGameModeBase.h">
+      <Filter>Source\Felicia</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
