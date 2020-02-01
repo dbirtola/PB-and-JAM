@@ -1,3 +1,0 @@
-D:\GGJ2020\Felicia\Source\Felicia\Felicia.Build.cs
-D:\GGJ2020\Felicia\Source\Felicia.Target.cs
-D:\GGJ2020\Felicia\Source\FeliciaEditor.Target.cs
