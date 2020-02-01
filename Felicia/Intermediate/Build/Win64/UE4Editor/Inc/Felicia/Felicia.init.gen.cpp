@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeFelicia_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xB83A68CB,
-				0x636A506E,
+				0x8560676A,
+				0x85B7A330,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

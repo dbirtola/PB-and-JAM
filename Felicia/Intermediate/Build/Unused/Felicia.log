@@ -1,0 +1,15 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\GGJ2020).
+  Invalidating makefile for FeliciaEditor (UHT files changed)
+  Parsing headers for FeliciaEditor
+    Running UnrealHeaderTool "D:\GGJ2020\Felicia\Felicia.uproject" "D:\GGJ2020\Felicia\Intermediate\Build\Win64\FeliciaEditor\Development\FeliciaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for FeliciaEditor in 65.4023714 seconds
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 4 actions with 8 processes...
+    [1/4] TetrisRandomizer.cpp
+    [2/4] UE4Editor-Felicia.lib
+       Creating library D:\GGJ2020\Felicia\Intermediate\Build\Win64\UE4Editor\Development\Felicia\UE4Editor-Felicia.lib and object D:\GGJ2020\Felicia\Intermediate\Build\Win64\UE4Editor\Development\Felicia\UE4Editor-Felicia.exp
+    [3/4] UE4Editor-Felicia.dll
+       Creating library D:\GGJ2020\Felicia\Intermediate\Build\Win64\UE4Editor\Development\Felicia\UE4Editor-Felicia.suppressed.lib and object D:\GGJ2020\Felicia\Intermediate\Build\Win64\UE4Editor\Development\Felicia\UE4Editor-Felicia.suppressed.exp
+    [4/4] FeliciaEditor.target
+  Total time in Parallel executor: 49.68 seconds
+  Total execution time: 139.07 seconds
