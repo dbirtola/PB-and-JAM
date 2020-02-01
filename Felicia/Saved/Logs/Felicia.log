@@ -559,3 +559,246 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.02.01-02.50.07:101][569]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
 [2020.02.01-02.52.00:451][231]LogRenderer: Reallocating scene render targets to support 1140x580 Format 10 NumSamples 1 (Frame:6114).
 [2020.02.01-02.56.33:154][353]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.02.01-02.58.44:565][260]LogHttp: Warning: 000001D12AF02FC0: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD06B50B2-4745-B7A2-5A8A-18BD4094A7BD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.1-9631420%2B%2B%2BUE4%2BRelease-4.23&UserID=8187fa774c171203c8ad7f8af2b6f973%7C92c60276752a456abbcb4fe760b65dc2%7C366e9e42-e361-4193-8c99-d88223d75935&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2020.02.01-02.58.44:565][260]LogHttp: Warning: 000001D12AF02FC0: request failed, libcurl error: 0 (No error)
+[2020.02.01-02.58.44:565][260]LogHttp: Warning: 000001D12AF02FC0: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1d1594cbf70 [can pipeline])
+[2020.02.01-02.58.44:566][260]LogHttp: Warning: 000001D12AF02FC0: libcurl info message cache 1 (Re-using existing connection! (#27) with host datarouter.ol.epicgames.com)
+[2020.02.01-02.58.44:566][260]LogHttp: Warning: 000001D12AF02FC0: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.195.227.190) port 443 (#27))
+[2020.02.01-02.58.44:566][260]LogHttp: Warning: 000001D12AF02FC0: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.02.01-02.58.44:566][260]LogHttp: Warning: 000001D12AF02FC0: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2020.02.01-02.58.44:566][260]LogHttp: Warning: 000001D12AF02FC0: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.02.01-02.58.44:567][260]LogHttp: Warning: 000001D12AF02FC0: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.02.01-02.58.44:567][260]LogHttp: Warning: 000001D12AF02FC0: libcurl info message cache 7 (Closing connection 27)
+[2020.02.01-02.58.44:567][260]LogHttp: Warning: 000001D12AF02FC0: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2020.02.01-02.58.44:567][260]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD06B50B2-4745-B7A2-5A8A-18BD4094A7BD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.1-9631420%2B%2B%2BUE4%2BRelease-4.23&UserID=8187fa774c171203c8ad7f8af2b6f973%7C92c60276752a456abbcb4fe760b65dc2%7C366e9e42-e361-4193-8c99-d88223d75935&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.02.01-04.57.18:211][686]Candidate modules for hot reload:
+[2020.02.01-04.57.18:211][686]  Felicia
+[2020.02.01-04.57.18:212][686]Launching UnrealBuildTool... [D:/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Felicia,4814 Win64 Development -TargetType=Editor -Project="D:/GGJ2020/Felicia/Felicia.uproject" "D:/GGJ2020/Felicia/Felicia.uproject"  -IgnoreJunk]
+[2020.02.01-04.57.18:454][686]Warning: Starting HotReload took  1.4s.
+[2020.02.01-04.58.02:591][269]CompilerResultsLog: New page: Compilation - Jan 31, 2020, 12:58:02 PM
+[2020.02.01-04.58.02:609][269]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\GGJ2020).
+[2020.02.01-04.58.02:609][269]CompilerResultsLog: Parsing headers for FeliciaEditor
+[2020.02.01-04.58.02:609][269]CompilerResultsLog:   Running UnrealHeaderTool "D:\GGJ2020\Felicia\Felicia.uproject" "D:\GGJ2020\Felicia\Intermediate\Build\Win64\FeliciaEditor\Development\FeliciaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.01-04.58.02:609][269]CompilerResultsLog: Reflection code generated for FeliciaEditor in 33.5951931 seconds
+[2020.02.01-04.58.02:609][269]CompilerResultsLog: Failed to delete file 'D:\GGJ2020\Felicia\Binaries\Win64\UE4Editor-Felicia.pdb'
+[2020.02.01-04.58.02:610][269]CompilerResultsLog:     Exception: Access to the path 'D:\GGJ2020\Felicia\Binaries\Win64\UE4Editor-Felicia.pdb' is denied.
+[2020.02.01-04.58.02:610][269]CompilerResultsLog: Attempting to retry...
+[2020.02.01-04.58.02:610][269]CompilerResultsLog: Failed to delete file 'D:\GGJ2020\Felicia\Binaries\Win64\UE4Editor-Felicia.pdb'
+[2020.02.01-04.58.02:610][269]CompilerResultsLog:     Exception: Access to the path 'D:\GGJ2020\Felicia\Binaries\Win64\UE4Editor-Felicia.pdb' is denied.
+[2020.02.01-04.58.02:610][269]CompilerResultsLog: Attempting to retry...
+[2020.02.01-04.58.02:611][269]CompilerResultsLog: Failed to delete file 'D:\GGJ2020\Felicia\Binaries\Win64\UE4Editor-Felicia.pdb'
+[2020.02.01-04.58.02:611][269]CompilerResultsLog:     Exception: Access to the path 'D:\GGJ2020\Felicia\Binaries\Win64\UE4Editor-Felicia.pdb' is denied.
+[2020.02.01-04.58.02:611][269]CompilerResultsLog: ERROR: Exhausted all retries!
+[2020.02.01-04.58.02:611][269]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.01-04.58.02:611][269]CompilerResultsLog: Building 3 actions with 8 processes...
+[2020.02.01-04.58.02:611][269]CompilerResultsLog:   [1/3] UE4Editor-Felicia-4814.lib
+[2020.02.01-04.58.02:612][269]CompilerResultsLog:      Creating library D:\GGJ2020\Felicia\Intermediate\Build\Win64\UE4Editor\Development\Felicia\UE4Editor-Felicia-4814.lib and object D:\GGJ2020\Felicia\Intermediate\Build\Win64\UE4Editor\Development\Felicia\UE4Editor-Felicia-4814.exp
+[2020.02.01-04.58.02:612][269]CompilerResultsLog:   [2/3] UE4Editor-Felicia-4814.dll
+[2020.02.01-04.58.02:612][269]CompilerResultsLog:      Creating library D:\GGJ2020\Felicia\Intermediate\Build\Win64\UE4Editor\Development\Felicia\UE4Editor-Felicia-4814.suppressed.lib and object D:\GGJ2020\Felicia\Intermediate\Build\Win64\UE4Editor\Development\Felicia\UE4Editor-Felicia-4814.suppressed.exp
+[2020.02.01-04.58.02:612][269]CompilerResultsLog:   [3/3] FeliciaEditor.target
+[2020.02.01-04.58.02:612][269]CompilerResultsLog: Total time in Parallel executor: 3.20 seconds
+[2020.02.01-04.58.02:612][269]CompilerResultsLog: Total execution time: 43.12 seconds
+[2020.02.01-04.58.02:613][269]LogMainFrame: MainFrame: Module compiling took 44.865 seconds
+[2020.02.01-04.58.02:917][269]LogUObjectHash: Compacting FUObjectHashTables data took  13.19ms
+[2020.02.01-04.58.02:963][269]LogContentBrowser: Native class hierarchy updated for 'Felicia' in 0.0009 seconds. Added 2 classes and 2 folders.
+[2020.02.01-04.58.02:971][269]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2020.02.01-04.58.03:548][269]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2020.02.01-04.58.03:599][269]LogContentBrowser: Native class hierarchy populated in 0.0156 seconds. Added 2866 classes and 684 folders.
+[2020.02.01-04.58.03:676][269]Display: HotReload took 46.6s.
+[2020.02.01-04.58.07:877][474]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.01-04.58.08:233][474]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.02.01-04.58.08:274][474]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.01-04.58.08:293][474]PIE: New page: PIE session: Minimal_Default (Jan 31, 2020, 12:58:08 PM)
+[2020.02.01-04.58.08:376][474]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.02.01-04.58.08:384][474]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.02.01-04.58.08:489][474]LogPlayLevel: PIE: StaticDuplicateObject took: (0.103895s)
+[2020.02.01-04.58.08:508][474]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.02.01-04.58.08:526][474]LogPlayLevel: PIE: World Init took: (0.036680s)
+[2020.02.01-04.58.08:538][474]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.153441s)
+[2020.02.01-04.58.08:643][474]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2020.02.01-04.58.08:839][474]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.02.01-04.58.08:975][474]LogInit: FAudioDevice initialized.
+[2020.02.01-04.58.09:088][474]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/Felicia.FeliciaGameMode'
+[2020.02.01-04.58.09:088][474]LogLoad: Game class is 'GameModeBase'
+[2020.02.01-04.58.09:244][474]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.01.31-20.58.09
+[2020.02.01-04.58.09:255][474]LogWorld: Bringing up level for play took: 0.012954
+[2020.02.01-04.58.09:256][474]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.02.01-04.58.09:603][474]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 20 classes and 0 folders.
+[2020.02.01-04.58.09:707][474]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.663
+[2020.02.01-04.58.09:707][474]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.02.01-04.58.12:252][585]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.02.01-04.58.13:148][585]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.01-04.58.13:164][585]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.02.01-04.58.13:165][585]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.02.01-04.58.13:222][585]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.01-04.58.13:223][585]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.02.01-04.58.13:316][585]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.01-04.58.13:582][585]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2020.02.01-04.58.13:714][586]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.02.01-05.02.16:320][552]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.01-05.02.16:420][558]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.01-05.02.16:440][558]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.02.01-05.02.16:441][558]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.01-05.02.16:441][558]PIE: New page: PIE session: Minimal_Default (Jan 31, 2020, 1:02:16 PM)
+[2020.02.01-05.02.16:441][558]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.02.01-05.02.16:447][558]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005387s)
+[2020.02.01-05.02.16:449][558]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.02.01-05.02.16:450][558]LogPlayLevel: PIE: World Init took: (0.003045s)
+[2020.02.01-05.02.16:451][558]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009216s)
+[2020.02.01-05.02.16:489][558]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2020.02.01-05.02.16:603][558]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.02.01-05.02.16:758][558]LogInit: FAudioDevice initialized.
+[2020.02.01-05.02.16:779][558]LogLoad: Game class is 'GameModeBase'
+[2020.02.01-05.02.16:781][558]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.01.31-21.02.16
+[2020.02.01-05.02.16:781][558]LogWorld: Bringing up level for play took: 0.001156
+[2020.02.01-05.02.16:781][558]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2020.02.01-05.02.16:787][558]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.745
+[2020.02.01-05.02.16:788][558]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.02.01-05.02.21:595][841]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.02.01-05.02.21:598][841]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.01-05.02.21:599][841]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.02.01-05.02.21:600][841]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.02.01-05.02.21:624][841]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.01-05.02.21:625][841]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.02.01-05.02.21:679][841]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.01-05.02.21:685][841]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2020.02.01-05.02.21:719][842]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2020.02.01-05.02.23:130][920]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.01-05.06.12:959][788]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.01-05.06.12:982][788]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.02.01-05.06.12:982][788]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.01-05.06.12:982][788]PIE: New page: PIE session: Minimal_Default (Jan 31, 2020, 1:06:12 PM)
+[2020.02.01-05.06.12:983][788]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.02.01-05.06.12:990][788]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006821s)
+[2020.02.01-05.06.12:992][788]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.02.01-05.06.12:993][788]LogPlayLevel: PIE: World Init took: (0.002622s)
+[2020.02.01-05.06.12:993][788]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.010406s)
+[2020.02.01-05.06.13:037][788]LogUObjectHash: Compacting FUObjectHashTables data took   4.72ms
+[2020.02.01-05.06.13:188][788]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2020.02.01-05.06.13:424][788]LogInit: FAudioDevice initialized.
+[2020.02.01-05.06.13:446][788]LogLoad: Game class is 'GameModeBase'
+[2020.02.01-05.06.13:448][788]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2020.01.31-21.06.13
+[2020.02.01-05.06.13:448][788]LogWorld: Bringing up level for play took: 0.001926
+[2020.02.01-05.06.13:449][788]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2020.02.01-05.06.13:454][788]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.412
+[2020.02.01-05.06.13:455][788]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.02.01-05.06.14:497][841]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.02.01-05.06.14:497][841]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.01-05.06.14:498][841]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.02.01-05.06.14:498][841]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.02.01-05.06.14:520][841]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.01-05.06.14:520][841]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.02.01-05.06.14:564][841]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.01-05.06.14:570][841]LogUObjectHash: Compacting FUObjectHashTables data took   4.08ms
+[2020.02.01-05.06.14:603][843]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2020.02.01-05.08.45:112][374]LogHttp: Warning: 000001D12B324E00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD06B50B2-4745-B7A2-5A8A-18BD4094A7BD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.1-9631420%2B%2B%2BUE4%2BRelease-4.23&UserID=8187fa774c171203c8ad7f8af2b6f973%7C92c60276752a456abbcb4fe760b65dc2%7C366e9e42-e361-4193-8c99-d88223d75935&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2020.02.01-05.08.45:113][374]LogHttp: Warning: 000001D12B324E00: request failed, libcurl error: 0 (No error)
+[2020.02.01-05.08.45:113][374]LogHttp: Warning: 000001D12B324E00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1d1594cbf70 [can pipeline])
+[2020.02.01-05.08.45:113][374]LogHttp: Warning: 000001D12B324E00: libcurl info message cache 1 (Re-using existing connection! (#43) with host datarouter.ol.epicgames.com)
+[2020.02.01-05.08.45:113][374]LogHttp: Warning: 000001D12B324E00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.228.118.138) port 443 (#43))
+[2020.02.01-05.08.45:113][374]LogHttp: Warning: 000001D12B324E00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.02.01-05.08.45:114][374]LogHttp: Warning: 000001D12B324E00: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2020.02.01-05.08.45:114][374]LogHttp: Warning: 000001D12B324E00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.02.01-05.08.45:114][374]LogHttp: Warning: 000001D12B324E00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.02.01-05.08.45:114][374]LogHttp: Warning: 000001D12B324E00: libcurl info message cache 7 (Closing connection 43)
+[2020.02.01-05.08.45:114][374]LogHttp: Warning: 000001D12B324E00: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2020.02.01-05.08.45:452][375]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD06B50B2-4745-B7A2-5A8A-18BD4094A7BD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.1-9631420%2B%2B%2BUE4%2BRelease-4.23&UserID=8187fa774c171203c8ad7f8af2b6f973%7C92c60276752a456abbcb4fe760b65dc2%7C366e9e42-e361-4193-8c99-d88223d75935&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.02.01-05.40.47:598][104]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.01-05.40.58:591][568]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.01-05.41.31:817][355]LogAssetEditorManager: Opening Asset editor for World /Game/StarterContent/Maps/Map_TestShipZack.Map_TestShipZack
+[2020.02.01-05.41.31:897][355]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2020.02.01-05.41.34:526][355]LogSlate: Window 'Save Content' being destroyed
+[2020.02.01-05.41.34:642][355]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2020.02.01-05.41.34:912][355]LogSavePackage: Moving '../../../../../GGJ2020/Felicia/Saved/Map_TestShipZackCE25A94B4567F5F294AA0F9B092E32C7.tmp' to '../../../../../GGJ2020/Felicia/Content/StarterContent/Maps/Map_TestShipZack.umap'
+[2020.02.01-05.41.35:039][355]LogFileHelpers: Saving map 'Map_TestShipZack' took 0.463
+[2020.02.01-05.41.35:056][355]Cmd: MAP LOAD FILE="../../../../../GGJ2020/Felicia/Content/StarterContent/Maps/Map_TestShipZack.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.01-05.41.35:057][355]LightingResults: New page: Lighting Build
+[2020.02.01-05.41.35:071][355]LoadErrors: New page: Loading map: Map_TestShipZack.umap
+[2020.02.01-05.41.35:078][355]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.02.01-05.41.35:085][355]MapCheck: New page: Map Check
+[2020.02.01-05.41.35:085][355]LightingResults: New page: Lighting Build
+[2020.02.01-05.41.35:163][355]LogUObjectHash: Compacting FUObjectHashTables data took   4.21ms
+[2020.02.01-05.41.35:217][355]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.01-05.41.35:218][355]LogAIModule: Creating AISystem for world Map_TestShipZack
+[2020.02.01-05.41.35:252][355]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2020.02.01-05.41.35:333][355]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.01-05.41.35:334][355]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.114ms to complete.
+[2020.02.01-05.41.35:337][355]LogFileHelpers: Loading map 'Map_TestShipZack' took 0.295
+[2020.02.01-05.42.12:819][101]LogCollectionManager: Rebuilt the hierarchy cache for 0 collections in 0.000006 seconds
+[2020.02.01-05.42.16:010][276]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000004 seconds
+[2020.02.01-05.42.37:176][326]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000002 seconds
+[2020.02.01-05.42.37:176][326]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000212 seconds (found 1 objects)
+[2020.02.01-05.42.40:735][493]LogHttp: Warning: 000001D10F38A700: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD06B50B2-4745-B7A2-5A8A-18BD4094A7BD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.1-9631420%2B%2B%2BUE4%2BRelease-4.23&UserID=8187fa774c171203c8ad7f8af2b6f973%7C92c60276752a456abbcb4fe760b65dc2%7C366e9e42-e361-4193-8c99-d88223d75935&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2020.02.01-05.42.40:736][493]LogHttp: Warning: 000001D10F38A700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.02.01-05.42.40:736][493]LogHttp: Warning: 000001D10F38A700: libcurl info message cache 0 (Connection 55 seems to be dead!)
+[2020.02.01-05.42.40:736][493]LogHttp: Warning: 000001D10F38A700: libcurl info message cache 1 (Closing connection 55)
+[2020.02.01-05.42.40:736][493]LogHttp: Warning: 000001D10F38A700: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2020.02.01-05.42.40:736][493]LogHttp: Warning: 000001D10F38A700: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.02.01-05.42.40:737][493]LogHttp: Warning: 000001D10F38A700: libcurl info message cache 4 (Closing connection 56)
+[2020.02.01-05.42.40:737][493]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD06B50B2-4745-B7A2-5A8A-18BD4094A7BD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.1-9631420%2B%2B%2BUE4%2BRelease-4.23&UserID=8187fa774c171203c8ad7f8af2b6f973%7C92c60276752a456abbcb4fe760b65dc2%7C366e9e42-e361-4193-8c99-d88223d75935&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.02.01-05.43.01:748][549]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000003 seconds (found 0 objects)
+[2020.02.01-05.43.03:368][601]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000002 seconds
+[2020.02.01-05.43.05:865][703]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.02.01-05.43.05:867][703]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000001 seconds
+[2020.02.01-05.43.05:867][703]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000279 seconds (found 1 objects)
+[2020.02.01-05.43.07:075][730]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.02.01-05.43.12:100][932]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.02.01-05.43.12:109][932]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000002 seconds
+[2020.02.01-05.43.12:109][932]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000381 seconds (found 2 objects)
+[2020.02.01-05.44.40:192][964]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.01-05.44.43:825][152]LogEditorViewport: Clicking Background
+[2020.02.01-05.44.44:738][197]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.01-05.45.22:904][394]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.01-05.45.44:090][541]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.01-05.46.19:994][282]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.01-05.46.22:380][363]LogActorFactory: Actor Factory created Cube
+[2020.02.01-05.46.22:958][375]LogActorFactory: Actor Factory created Cube
+[2020.02.01-05.46.29:065][697]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.01-05.46.33:542][896]LogEditor: Attempting to add actor of class 'ARSkyLight' to level at 600.00,-50.00,80.00
+[2020.02.01-05.46.34:047][905]LogEditor: Attempting to add actor of class 'ARSkyLight' to level at 1390.00,-80.00,-10.00
+[2020.02.01-05.46.36:769][ 59]Cmd: TRANSACTION UNDO
+[2020.02.01-05.46.36:770][ 59]LogEditorTransaction: Undo Create Actors
+[2020.02.01-05.46.37:502][ 72]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.01-05.47.02:277][466]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.02.01-05.47.17:775][348]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.01-05.47.41:551][713]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.02.01-05.47.41:694][721]Cmd: EDIT COPY
+[2020.02.01-05.47.42:439][721]Cmd: EDIT PASTE
+[2020.02.01-05.47.56:476][521]Cmd: EDIT COPY
+[2020.02.01-05.47.56:633][530]Cmd: EDIT PASTE
+[2020.02.01-05.47.59:943][719]Cmd: EDIT COPY
+[2020.02.01-05.48.00:154][730]Cmd: EDIT PASTE
+[2020.02.01-05.48.02:755][879]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.02.01-05.48.02:904][886]Cmd: TRANSACTION UNDO
+[2020.02.01-05.48.02:904][886]LogEditorTransaction: Undo Clicking on Actors
+[2020.02.01-05.48.03:532][900]Cmd: TRANSACTION UNDO
+[2020.02.01-05.48.03:532][900]LogEditorTransaction: Undo Paste
+[2020.02.01-05.48.04:189][934]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.02.01-05.48.04:629][958]Cmd: EDIT COPY
+[2020.02.01-05.48.05:326][999]Cmd: EDIT PASTE
+[2020.02.01-05.48.07:288][108]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2020.02.01-05.48.10:058][263]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2020.02.01-05.48.10:365][279]Cmd: EDIT CUT
+[2020.02.01-05.48.10:989][279]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.02.01-05.48.11:038][279]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2020.02.01-05.48.11:039][279]LogEditorActor: Deleted 1 Actors (0.665 secs)
+[2020.02.01-05.48.11:425][302]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2020.02.01-05.48.11:785][321]Cmd: EDIT CUT
+[2020.02.01-05.48.11:795][321]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.02.01-05.48.11:829][321]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2020.02.01-05.48.11:829][321]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2020.02.01-05.48.12:309][349]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2020.02.01-05.48.12:513][359]Cmd: EDIT CUT
+[2020.02.01-05.48.12:522][359]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.02.01-05.48.12:557][359]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2020.02.01-05.48.12:558][359]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2020.02.01-05.48.13:078][389]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.02.01-05.48.13:460][409]Cmd: EDIT CUT
+[2020.02.01-05.48.13:466][409]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.02.01-05.48.13:525][409]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2020.02.01-05.48.13:525][409]LogEditorActor: Deleted 1 Actors (0.060 secs)
+[2020.02.01-05.51.32:165][275]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2020.02.01-05.51.32:567][275]LogSavePackage: Moving '../../../../../GGJ2020/Felicia/Saved/Map_TestShipZack_Auto10FC281214098799272DF35829A1262F4.tmp' to '../../../../../GGJ2020/Felicia/Saved/Autosaves/Game/StarterContent/Maps/Map_TestShipZack_Auto1.umap'
+[2020.02.01-05.51.32:575][275]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Map_TestShipZack' took 0.442
+[2020.02.01-05.51.32:575][275]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.442
+[2020.02.01-05.52.08:345][383]LogSlate: FSceneViewport::OnFocusLost() reason 0
