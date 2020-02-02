@@ -1,0 +1,534 @@
+Begin Object Class=/Script/Engine.Material Name="D_ScreenCircles"
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTime Name="MaterialExpressionTime_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTime Name="MaterialExpressionTime_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTime Name="MaterialExpressionTime_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_2"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionAdd_1"
+      A=(Expression=MaterialExpressionMultiply'"D_ScreenCircles:MaterialExpressionMultiply_0"')
+      B=(Expression=MaterialExpressionMultiply'"D_ScreenCircles:MaterialExpressionMultiply_2"')
+      MaterialExpressionEditorX=-368
+      MaterialExpressionEditorY=816
+      MaterialExpressionGuid=54D34D7B44DC1F966F4D63B88F7334C1
+      Material=Material'"D_ScreenCircles"'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_2"
+      A=(Expression=MaterialExpressionMultiply'"D_ScreenCircles:MaterialExpressionMultiply_3"')
+      B=(Expression=MaterialExpressionMultiply'"D_ScreenCircles:MaterialExpressionMultiply_4"')
+      MaterialExpressionEditorX=24
+      MaterialExpressionEditorY=444
+      MaterialExpressionGuid=F42613694C03B8C3E4FBCA8904C9CCB0
+      Material=Material'"D_ScreenCircles"'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionAdd_3"
+      A=(Expression=MaterialExpressionMultiply'"D_ScreenCircles:MaterialExpressionMultiply_5"')
+      B=(Expression=MaterialExpressionAdd'"D_ScreenCircles:MaterialExpressionAdd_2"')
+      MaterialExpressionEditorX=217
+      MaterialExpressionEditorY=420
+      MaterialExpressionGuid=E9F69A114C5F7559E4F330A443CF0604
+      Material=Material'"D_ScreenCircles"'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_5"
+      A=(Expression=MaterialExpressionAdd'"D_ScreenCircles:MaterialExpressionAdd_1"')
+      B=(Expression=MaterialExpressionMultiply'"D_ScreenCircles:MaterialExpressionMultiply_7"')
+      MaterialExpressionEditorX=-232
+      MaterialExpressionEditorY=843
+      MaterialExpressionGuid=0A6F664746307745E6E4478A8380B826
+      Material=Material'"D_ScreenCircles"'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionComment_0"
+      SizeX=1216
+      SizeY=432
+      Text="Red"
+      MaterialExpressionEditorX=-1881
+      MaterialExpressionEditorY=-70
+      MaterialExpressionGuid=C15917FA455AD061595B2D9890C11B5A
+      Material=Material'"D_ScreenCircles"'
+   End Object
+   Begin Object Name="MaterialExpressionComment_2"
+      SizeX=1216
+      SizeY=432
+      Text="Green"
+      MaterialExpressionEditorX=-1881
+      MaterialExpressionEditorY=378
+      MaterialExpressionGuid=C15917FA455AD061595B2D9890C11B5A
+      Material=Material'"D_ScreenCircles"'
+   End Object
+   Begin Object Name="MaterialExpressionComment_3"
+      SizeX=1216
+      SizeY=432
+      Text="Green"
+      MaterialExpressionEditorX=-1881
+      MaterialExpressionEditorY=842
+      MaterialExpressionGuid=C15917FA455AD061595B2D9890C11B5A
+      Material=Material'"D_ScreenCircles"'
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_0"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Texturing/CustomRotator.CustomRotator"'
+      FunctionInputs(0)=(ExpressionInputId=45DE7CC04BCC975C664A2AA5DA134FEF,Input=(Expression=MaterialExpressionMaterialFunctionCall'"D_ScreenCircles:MaterialExpressionMaterialFunctionCall_5"',InputName="UVs"))
+      FunctionInputs(1)=(ExpressionInputId=9B6953874136DCE4D8E4E8878152CCCE,Input=(OutputIndex=-1,InputName="Rotation Center"))
+      FunctionInputs(2)=(ExpressionInputId=D58F67D84CFD4C9D289810AEE4A3EBC8,Input=(Expression=MaterialExpressionMultiply'"D_ScreenCircles:MaterialExpressionMultiply_1"',InputName="Rotation Angle (0-1)"))
+      FunctionOutputs(0)=(ExpressionOutputId=35E8F8F94CC8CE3D65F114A234D0BD5E,Output=(OutputName="Rotated Values"))
+      MaterialExpressionEditorX=-1390
+      MaterialExpressionEditorY=-14
+      MaterialExpressionGuid=487A6C6B41F8536BE6E280A7708C5878
+      Material=Material'"D_ScreenCircles"'
+      Outputs(0)=(OutputName="Rotated Values")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_1"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Texturing/CustomRotator.CustomRotator"'
+      FunctionInputs(0)=(ExpressionInputId=45DE7CC04BCC975C664A2AA5DA134FEF,Input=(Expression=MaterialExpressionMaterialFunctionCall'"D_ScreenCircles:MaterialExpressionMaterialFunctionCall_4"',InputName="UVs"))
+      FunctionInputs(1)=(ExpressionInputId=9B6953874136DCE4D8E4E8878152CCCE,Input=(OutputIndex=-1,InputName="Rotation Center"))
+      FunctionInputs(2)=(ExpressionInputId=D58F67D84CFD4C9D289810AEE4A3EBC8,Input=(Expression=MaterialExpressionMultiply'"D_ScreenCircles:MaterialExpressionMultiply_6"',InputName="Rotation Angle (0-1)"))
+      FunctionOutputs(0)=(ExpressionOutputId=35E8F8F94CC8CE3D65F114A234D0BD5E,Output=(OutputName="Rotated Values"))
+      MaterialExpressionEditorX=-1392
+      MaterialExpressionEditorY=448
+      MaterialExpressionGuid=487A6C6B41F8536BE6E280A7708C5878
+      Material=Material'"D_ScreenCircles"'
+      Outputs(0)=(OutputName="Rotated Values")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_2"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Texturing/CustomRotator.CustomRotator"'
+      FunctionInputs(0)=(ExpressionInputId=45DE7CC04BCC975C664A2AA5DA134FEF,Input=(Expression=MaterialExpressionMaterialFunctionCall'"D_ScreenCircles:MaterialExpressionMaterialFunctionCall_3"',InputName="UVs"))
+      FunctionInputs(1)=(ExpressionInputId=9B6953874136DCE4D8E4E8878152CCCE,Input=(OutputIndex=-1,InputName="Rotation Center"))
+      FunctionInputs(2)=(ExpressionInputId=D58F67D84CFD4C9D289810AEE4A3EBC8,Input=(Expression=MaterialExpressionMultiply'"D_ScreenCircles:MaterialExpressionMultiply_8"',InputName="Rotation Angle (0-1)"))
+      FunctionOutputs(0)=(ExpressionOutputId=35E8F8F94CC8CE3D65F114A234D0BD5E,Output=(OutputName="Rotated Values"))
+      MaterialExpressionEditorX=-1392
+      MaterialExpressionEditorY=912
+      MaterialExpressionGuid=487A6C6B41F8536BE6E280A7708C5878
+      Material=Material'"D_ScreenCircles"'
+      Outputs(0)=(OutputName="Rotated Values")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_3"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsByCenter.ScaleUVsByCenter"'
+      FunctionInputs(0)=(ExpressionInputId=395E1DA54D9791A8DB7094B52B0509C3,Input=(Expression=MaterialExpressionTextureCoordinate'"D_ScreenCircles:MaterialExpressionTextureCoordinate_3"',InputName="UVs"))
+      FunctionInputs(1)=(ExpressionInputId=9E726E4E4FF0FCD65D606FB9CE123842,Input=(Expression=MaterialExpressionScalarParameter'"D_ScreenCircles:MaterialExpressionScalarParameter_5"',InputName="Texture Scale"))
+      FunctionOutputs(0)=(ExpressionOutputId=94A339B248B805839CF8F28B335D4E1D,Output=(OutputName="UVs"))
+      FunctionOutputs(1)=(ExpressionOutputId=2DFD3EF340552A23494E8D987C76BC0D,Output=(OutputName="0-1 mask"))
+      MaterialExpressionEditorX=-1696
+      MaterialExpressionEditorY=912
+      MaterialExpressionGuid=E3140DFB46DC3299948247AAB010DD37
+      Material=Material'"D_ScreenCircles"'
+      Outputs(0)=(OutputName="UVs")
+      Outputs(1)=(OutputName="0-1 mask")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_4"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsByCenter.ScaleUVsByCenter"'
+      FunctionInputs(0)=(ExpressionInputId=395E1DA54D9791A8DB7094B52B0509C3,Input=(Expression=MaterialExpressionTextureCoordinate'"D_ScreenCircles:MaterialExpressionTextureCoordinate_4"',InputName="UVs"))
+      FunctionInputs(1)=(ExpressionInputId=9E726E4E4FF0FCD65D606FB9CE123842,Input=(Expression=MaterialExpressionScalarParameter'"D_ScreenCircles:MaterialExpressionScalarParameter_6"',InputName="Texture Scale"))
+      FunctionOutputs(0)=(ExpressionOutputId=94A339B248B805839CF8F28B335D4E1D,Output=(OutputName="UVs"))
+      FunctionOutputs(1)=(ExpressionOutputId=2DFD3EF340552A23494E8D987C76BC0D,Output=(OutputName="0-1 mask"))
+      MaterialExpressionEditorX=-1696
+      MaterialExpressionEditorY=448
+      MaterialExpressionGuid=E3140DFB46DC3299948247AAB010DD37
+      Material=Material'"D_ScreenCircles"'
+      Outputs(0)=(OutputName="UVs")
+      Outputs(1)=(OutputName="0-1 mask")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_5"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsByCenter.ScaleUVsByCenter"'
+      FunctionInputs(0)=(ExpressionInputId=395E1DA54D9791A8DB7094B52B0509C3,Input=(Expression=MaterialExpressionTextureCoordinate'"D_ScreenCircles:MaterialExpressionTextureCoordinate_5"',InputName="UVs"))
+      FunctionInputs(1)=(ExpressionInputId=9E726E4E4FF0FCD65D606FB9CE123842,Input=(Expression=MaterialExpressionScalarParameter'"D_ScreenCircles:MaterialExpressionScalarParameter_7"',InputName="Texture Scale"))
+      FunctionOutputs(0)=(ExpressionOutputId=94A339B248B805839CF8F28B335D4E1D,Output=(OutputName="UVs"))
+      FunctionOutputs(1)=(ExpressionOutputId=2DFD3EF340552A23494E8D987C76BC0D,Output=(OutputName="0-1 mask"))
+      MaterialExpressionEditorX=-1712
+      MaterialExpressionEditorY=-16
+      MaterialExpressionGuid=E3140DFB46DC3299948247AAB010DD37
+      Material=Material'"D_ScreenCircles"'
+      Outputs(0)=(OutputName="UVs")
+      Outputs(1)=(OutputName="0-1 mask")
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=MaterialExpressionTextureSample'"D_ScreenCircles:MaterialExpressionTextureSample_2"',OutputIndex=1,Mask=1,MaskR=1)
+      MaterialExpressionEditorX=-862
+      MaterialExpressionEditorY=18
+      MaterialExpressionGuid=A2DD6D2D4EF749BA9F5E4D8F11152338
+      Material=Material'"D_ScreenCircles"'
+      bRealtimePreview=True
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_1"
+      A=(Expression=MaterialExpressionTime'"D_ScreenCircles:MaterialExpressionTime_0"')
+      B=(Expression=MaterialExpressionScalarParameter'"D_ScreenCircles:MaterialExpressionScalarParameter_1"')
+      MaterialExpressionEditorX=-1570
+      MaterialExpressionEditorY=161
+      MaterialExpressionGuid=DA1998FE4DA8721A0E21B298F6A0BC61
+      Material=Material'"D_ScreenCircles"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_2"
+      A=(Expression=MaterialExpressionTextureSample'"D_ScreenCircles:MaterialExpressionTextureSample_3"',OutputIndex=2,Mask=1,MaskG=1)
+      MaterialExpressionEditorX=-864
+      MaterialExpressionEditorY=480
+      MaterialExpressionGuid=A2DD6D2D4EF749BA9F5E4D8F11152338
+      Material=Material'"D_ScreenCircles"'
+      bRealtimePreview=True
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_3"
+      A=(Expression=MaterialExpressionVectorParameter'"D_ScreenCircles:MaterialExpressionVectorParameter_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionMultiply'"D_ScreenCircles:MaterialExpressionMultiply_2"')
+      MaterialExpressionEditorX=-176
+      MaterialExpressionEditorY=288
+      MaterialExpressionGuid=1A06AA6D48D7C3D83400768F6D9D8D36
+      Material=Material'"D_ScreenCircles"'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_4"
+      A=(Expression=MaterialExpressionVectorParameter'"D_ScreenCircles:MaterialExpressionVectorParameter_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionMultiply'"D_ScreenCircles:MaterialExpressionMultiply_7"')
+      MaterialExpressionEditorX=-176
+      MaterialExpressionEditorY=480
+      MaterialExpressionGuid=992B5B514C7CEE51CCAFAD96FCE4A401
+      Material=Material'"D_ScreenCircles"'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_5"
+      A=(Expression=MaterialExpressionVectorParameter'"D_ScreenCircles:MaterialExpressionVectorParameter_2"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionMultiply'"D_ScreenCircles:MaterialExpressionMultiply_0"')
+      MaterialExpressionEditorX=-176
+      MaterialExpressionEditorY=128
+      MaterialExpressionGuid=F04E00E14EEEE12F3FA8ECBF30E54D99
+      Material=Material'"D_ScreenCircles"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_6"
+      A=(Expression=MaterialExpressionTime'"D_ScreenCircles:MaterialExpressionTime_1"')
+      B=(Expression=MaterialExpressionScalarParameter'"D_ScreenCircles:MaterialExpressionScalarParameter_2"')
+      MaterialExpressionEditorX=-1584
+      MaterialExpressionEditorY=608
+      MaterialExpressionGuid=DA1998FE4DA8721A0E21B298F6A0BC61
+      Material=Material'"D_ScreenCircles"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_7"
+      A=(Expression=MaterialExpressionTextureSample'"D_ScreenCircles:MaterialExpressionTextureSample_4"',OutputIndex=3,Mask=1,MaskB=1)
+      MaterialExpressionEditorX=-864
+      MaterialExpressionEditorY=992
+      MaterialExpressionGuid=A2DD6D2D4EF749BA9F5E4D8F11152338
+      Material=Material'"D_ScreenCircles"'
+      bRealtimePreview=True
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_8"
+      A=(Expression=MaterialExpressionTime'"D_ScreenCircles:MaterialExpressionTime_2"')
+      B=(Expression=MaterialExpressionScalarParameter'"D_ScreenCircles:MaterialExpressionScalarParameter_3"')
+      MaterialExpressionEditorX=-1584
+      MaterialExpressionEditorY=1072
+      MaterialExpressionGuid=DA1998FE4DA8721A0E21B298F6A0BC61
+      Material=Material'"D_ScreenCircles"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_9"
+      A=(Expression=MaterialExpressionAdd'"D_ScreenCircles:MaterialExpressionAdd_5"')
+      B=(Expression=MaterialExpressionScalarParameter'"D_ScreenCircles:MaterialExpressionScalarParameter_8"')
+      MaterialExpressionEditorX=160
+      MaterialExpressionEditorY=842
+      MaterialExpressionGuid=196DC5E04A816EFDCDD820A3E5FBFBCD
+      Material=Material'"D_ScreenCircles"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_1"
+      DefaultValue=0.500000
+      ParameterName="BigRotationSpeed"
+      ExpressionGUID=B1D4E9D647A8524F6C47479AD5022A2A
+      MaterialExpressionEditorX=-1742
+      MaterialExpressionEditorY=242
+      MaterialExpressionGuid=09481E54447DB7E3D7B0479DB7514FA9
+      Material=Material'"D_ScreenCircles"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_2"
+      DefaultValue=0.800000
+      ParameterName="MiddleRotationSpeed"
+      ExpressionGUID=E46BD2044799AC588A9D829D16C08CAE
+      MaterialExpressionEditorX=-1744
+      MaterialExpressionEditorY=704
+      MaterialExpressionGuid=09481E54447DB7E3D7B0479DB7514FA9
+      Material=Material'"D_ScreenCircles"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_3"
+      DefaultValue=0.800000
+      ParameterName="SmallRotationSpeed"
+      ExpressionGUID=E958D9664F77C1C5DB9C849D0686D564
+      MaterialExpressionEditorX=-1744
+      MaterialExpressionEditorY=1168
+      MaterialExpressionGuid=09481E54447DB7E3D7B0479DB7514FA9
+      Material=Material'"D_ScreenCircles"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_5"
+      DefaultValue=1.000000
+      ParameterName="SmallScale"
+      ExpressionGUID=A11F2A9A4F8FAECFA5FAE99628ACD843
+      MaterialExpressionEditorX=-1848
+      MaterialExpressionEditorY=1005
+      MaterialExpressionGuid=2D588E8748E238A2D12EC1AFBFAA4613
+      Material=Material'"D_ScreenCircles"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_6"
+      DefaultValue=1.000000
+      ParameterName="MiddleScale"
+      ExpressionGUID=BFC77746446D27D4AEABFDBD8D9FB57B
+      MaterialExpressionEditorX=-1856
+      MaterialExpressionEditorY=544
+      MaterialExpressionGuid=2D588E8748E238A2D12EC1AFBFAA4613
+      Material=Material'"D_ScreenCircles"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_7"
+      DefaultValue=1.000000
+      ParameterName="BigScale"
+      ExpressionGUID=273F02ED46464026D216CBBEB11CF52D
+      MaterialExpressionEditorX=-1856
+      MaterialExpressionEditorY=80
+      MaterialExpressionGuid=2D588E8748E238A2D12EC1AFBFAA4613
+      Material=Material'"D_ScreenCircles"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_8"
+      DefaultValue=1.000000
+      ParameterName="Opacity"
+      ExpressionGUID=72F84F57411BC7FF9F685EBF783F616D
+      MaterialExpressionEditorX=-16
+      MaterialExpressionEditorY=992
+      MaterialExpressionGuid=EAA3DA484803B732B44DD89F2A16BAD8
+      Material=Material'"D_ScreenCircles"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_3"
+      MaterialExpressionEditorX=-1840
+      MaterialExpressionEditorY=912
+      MaterialExpressionGuid=D64D337A4B25B5AC5605E99695C8E2D7
+      Material=Material'"D_ScreenCircles"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_4"
+      MaterialExpressionEditorX=-1840
+      MaterialExpressionEditorY=448
+      MaterialExpressionGuid=D64D337A4B25B5AC5605E99695C8E2D7
+      Material=Material'"D_ScreenCircles"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_5"
+      MaterialExpressionEditorX=-1856
+      MaterialExpressionEditorY=-16
+      MaterialExpressionGuid=D64D337A4B25B5AC5605E99695C8E2D7
+      Material=Material'"D_ScreenCircles"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_2"
+      Coordinates=(Expression=MaterialExpressionMaterialFunctionCall'"D_ScreenCircles:MaterialExpressionMaterialFunctionCall_0"')
+      Texture=Texture2D'"/Game/Deadbit/Materials/Textures/T_Monitor_Circles.T_Monitor_Circles"'
+      MaterialExpressionEditorX=-1102
+      MaterialExpressionEditorY=-14
+      MaterialExpressionGuid=FDA1EE5843BF8A2581ECFFB7406DF60F
+      Material=Material'"D_ScreenCircles"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_3"
+      Coordinates=(Expression=MaterialExpressionMaterialFunctionCall'"D_ScreenCircles:MaterialExpressionMaterialFunctionCall_1"')
+      Texture=Texture2D'"/Game/Deadbit/Materials/Textures/T_Monitor_Circles.T_Monitor_Circles"'
+      MaterialExpressionEditorX=-1104
+      MaterialExpressionEditorY=448
+      MaterialExpressionGuid=FDA1EE5843BF8A2581ECFFB7406DF60F
+      Material=Material'"D_ScreenCircles"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_4"
+      Coordinates=(Expression=MaterialExpressionMaterialFunctionCall'"D_ScreenCircles:MaterialExpressionMaterialFunctionCall_2"')
+      Texture=Texture2D'"/Game/Deadbit/Materials/Textures/T_Monitor_Circles.T_Monitor_Circles"'
+      MaterialExpressionEditorX=-1104
+      MaterialExpressionEditorY=912
+      MaterialExpressionGuid=FDA1EE5843BF8A2581ECFFB7406DF60F
+      Material=Material'"D_ScreenCircles"'
+   End Object
+   Begin Object Name="MaterialExpressionTime_0"
+      MaterialExpressionEditorX=-1710
+      MaterialExpressionEditorY=146
+      MaterialExpressionGuid=617724764902B75F77CB65AA1B5F9337
+      Material=Material'"D_ScreenCircles"'
+   End Object
+   Begin Object Name="MaterialExpressionTime_1"
+      MaterialExpressionEditorX=-1712
+      MaterialExpressionEditorY=608
+      MaterialExpressionGuid=617724764902B75F77CB65AA1B5F9337
+      Material=Material'"D_ScreenCircles"'
+   End Object
+   Begin Object Name="MaterialExpressionTime_2"
+      MaterialExpressionEditorX=-1712
+      MaterialExpressionEditorY=1072
+      MaterialExpressionGuid=617724764902B75F77CB65AA1B5F9337
+      Material=Material'"D_ScreenCircles"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_0"
+      DefaultValue=(R=0.546875,G=0.945096,B=1.000000,A=1.000000)
+      ParameterName="MiddleColor"
+      ExpressionGUID=93A1AB85480971816F3A0A99E284D5B6
+      MaterialExpressionEditorX=-464
+      MaterialExpressionEditorY=272
+      MaterialExpressionGuid=84BD70384BD12C6AED3848BE3A05E270
+      Material=Material'"D_ScreenCircles"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_1"
+      DefaultValue=(R=0.000000,G=0.096118,B=0.760417,A=1.000000)
+      ParameterName="SmallColor"
+      ExpressionGUID=46812416477C13726681C1A77D7C854D
+      MaterialExpressionEditorX=-464
+      MaterialExpressionEditorY=464
+      MaterialExpressionGuid=63269FCD4AEC72BBBF8A8AA2387BD7F4
+      Material=Material'"D_ScreenCircles"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_2"
+      DefaultValue=(R=0.085775,G=0.257671,B=0.484375,A=1.000000)
+      ParameterName="BigColor"
+      ExpressionGUID=94B135D74CF2B7885FE01A8789B5A669
+      MaterialExpressionEditorX=-464
+      MaterialExpressionEditorY=80
+      MaterialExpressionGuid=7BEA6889483C31A5D1E88BB1B3105A69
+      Material=Material'"D_ScreenCircles"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   EmissiveColor=(Expression=MaterialExpressionAdd'"MaterialExpressionAdd_3"')
+   Opacity=(Expression=MaterialExpressionMultiply'"MaterialExpressionMultiply_9"')
+   MaterialDomain=MD_DeferredDecal
+   BlendMode=BLEND_Translucent
+   EditorX=416
+   EditorY=320
+   Expressions(0)=MaterialExpressionAdd'"MaterialExpressionAdd_3"'
+   Expressions(1)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"'
+   Expressions(2)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_1"'
+   Expressions(3)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_2"'
+   Expressions(4)=MaterialExpressionMultiply'"MaterialExpressionMultiply_3"'
+   Expressions(5)=MaterialExpressionMultiply'"MaterialExpressionMultiply_4"'
+   Expressions(6)=MaterialExpressionAdd'"MaterialExpressionAdd_2"'
+   Expressions(7)=MaterialExpressionMultiply'"MaterialExpressionMultiply_5"'
+   Expressions(8)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"'
+   Expressions(9)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_0"'
+   Expressions(10)=MaterialExpressionMultiply'"MaterialExpressionMultiply_0"'
+   Expressions(11)=MaterialExpressionTime'"MaterialExpressionTime_0"'
+   Expressions(12)=MaterialExpressionMultiply'"MaterialExpressionMultiply_1"'
+   Expressions(13)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_1"'
+   Expressions(14)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_3"'
+   Expressions(15)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_1"'
+   Expressions(16)=MaterialExpressionMultiply'"MaterialExpressionMultiply_2"'
+   Expressions(17)=MaterialExpressionTime'"MaterialExpressionTime_1"'
+   Expressions(18)=MaterialExpressionMultiply'"MaterialExpressionMultiply_6"'
+   Expressions(19)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_2"'
+   Expressions(20)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_4"'
+   Expressions(21)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_2"'
+   Expressions(22)=MaterialExpressionTextureCoordinate'"MaterialExpressionTextureCoordinate_3"'
+   Expressions(23)=MaterialExpressionMultiply'"MaterialExpressionMultiply_7"'
+   Expressions(24)=MaterialExpressionTime'"MaterialExpressionTime_2"'
+   Expressions(25)=MaterialExpressionMultiply'"MaterialExpressionMultiply_8"'
+   Expressions(26)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_3"'
+   Expressions(27)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_3"'
+   Expressions(28)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_5"'
+   Expressions(29)=MaterialExpressionTextureCoordinate'"MaterialExpressionTextureCoordinate_4"'
+   Expressions(30)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_4"'
+   Expressions(31)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_6"'
+   Expressions(32)=MaterialExpressionTextureCoordinate'"MaterialExpressionTextureCoordinate_5"'
+   Expressions(33)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_5"'
+   Expressions(34)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_7"'
+   Expressions(35)=MaterialExpressionAdd'"MaterialExpressionAdd_1"'
+   Expressions(36)=MaterialExpressionAdd'"MaterialExpressionAdd_5"'
+   Expressions(37)=MaterialExpressionMultiply'"MaterialExpressionMultiply_9"'
+   Expressions(38)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_8"'
+   EditorComments(0)=MaterialExpressionComment'"MaterialExpressionComment_0"'
+   EditorComments(1)=MaterialExpressionComment'"MaterialExpressionComment_2"'
+   EditorComments(2)=MaterialExpressionComment'"MaterialExpressionComment_3"'
+   ParameterGroupData(0)=(GroupName="None")
+   ParameterGroupData(1)=(GroupName="None")
+   ParameterGroupData(2)=(GroupName="None")
+   ParameterGroupData(3)=(GroupName="None")
+   ParameterGroupData(4)=(GroupName="None")
+   ParameterGroupData(5)=(GroupName="None")
+   ParameterGroupData(6)=(GroupName="None")
+   ParameterGroupData(7)=(GroupName="None")
+   ParameterGroupData(8)=(GroupName="None")
+   ParameterGroupData(9)=(GroupName="None")
+   MaterialFunctionInfos(0)=(StateId=E572D701496E6D38CC53A5BDC450B0ED,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Texturing/CustomRotator.CustomRotator"')
+   MaterialFunctionInfos(1)=(StateId=E572D701496E6D38CC53A5BDC450B0ED,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Texturing/CustomRotator.CustomRotator"')
+   MaterialFunctionInfos(2)=(StateId=E572D701496E6D38CC53A5BDC450B0ED,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Texturing/CustomRotator.CustomRotator"')
+   MaterialFunctionInfos(3)=(StateId=2C1DDB6E406BC9FC1D4141A17C82122A,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.BreakOutFloat2Components"')
+   MaterialFunctionInfos(4)=(StateId=B2F4A5A74EDE33D8E70A4A83A28D1503,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsByCenter.ScaleUVsByCenter"')
+   MaterialFunctionInfos(5)=(StateId=2C1DDB6E406BC9FC1D4141A17C82122A,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.BreakOutFloat2Components"')
+   MaterialFunctionInfos(6)=(StateId=B2F4A5A74EDE33D8E70A4A83A28D1503,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsByCenter.ScaleUVsByCenter"')
+   MaterialFunctionInfos(7)=(StateId=2C1DDB6E406BC9FC1D4141A17C82122A,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.BreakOutFloat2Components"')
+   MaterialFunctionInfos(8)=(StateId=B2F4A5A74EDE33D8E70A4A83A28D1503,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsByCenter.ScaleUVsByCenter"')
+   bCanMaskedBeAssumedOpaque=True
+   StateId=37D073C7425037278FC1919BFAF0C127
+   ReferencedTextureGuids(0)=766C0EF04DF3BEFDEDA5E4A007303358
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   ParameterOverviewExpansion=(("-12None", True))
+   LightingGuid=5CCF2D824DD703599BEA9FB26C132E60
+End Object
