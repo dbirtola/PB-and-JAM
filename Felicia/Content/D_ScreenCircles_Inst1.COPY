@@ -1,0 +1,23 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="D_ScreenCircles_Inst1"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=57B35536479D746F1AC6149B8F3159F3
+   Parent=Material'"/Game/Deadbit/Materials/Decals/D_ScreenCircles.D_ScreenCircles"'
+   ScalarParameterValues(0)=(ParameterInfo=(Name="BigRotationSpeed"),ParameterValue=1.800000,ExpressionGUID=B1D4E9D647A8524F6C47479AD5022A2A)
+   ScalarParameterValues(1)=(ParameterInfo=(Name="BigScale"),ParameterValue=1.000000,ExpressionGUID=273F02ED46464026D216CBBEB11CF52D)
+   ScalarParameterValues(2)=(ParameterInfo=(Name="MiddleRotationSpeed"),ParameterValue=0.300000,ExpressionGUID=E46BD2044799AC588A9D829D16C08CAE)
+   ScalarParameterValues(3)=(ParameterInfo=(Name="MiddleScale"),ParameterValue=1.000000,ExpressionGUID=BFC77746446D27D4AEABFDBD8D9FB57B)
+   ScalarParameterValues(4)=(ParameterInfo=(Name="Opacity"),ParameterValue=1.000000,ExpressionGUID=72F84F57411BC7FF9F685EBF783F616D)
+   ScalarParameterValues(5)=(ParameterInfo=(Name="SmallRotationSpeed"),ParameterValue=0.100000,ExpressionGUID=E958D9664F77C1C5DB9C849D0686D564)
+   ScalarParameterValues(6)=(ParameterInfo=(Name="SmallScale"),ParameterValue=1.000000,ExpressionGUID=A11F2A9A4F8FAECFA5FAE99628ACD843)
+   ScalarParameterValues(7)=(ParameterInfo=(Name="RefractionDepthBias"))
+   VectorParameterValues(0)=(ParameterInfo=(Name="BigColor"),ParameterValue=(R=0.770833,G=0.112364,B=0.120032,A=1.000000),ExpressionGUID=94B135D74CF2B7885FE01A8789B5A669)
+   VectorParameterValues(1)=(ParameterInfo=(Name="MiddleColor"),ParameterValue=(R=0.500000,G=0.265351,B=0.030990,A=1.000000),ExpressionGUID=93A1AB85480971816F3A0A99E284D5B6)
+   VectorParameterValues(2)=(ParameterInfo=(Name="SmallColor"),ParameterValue=(R=1.000000,G=0.541082,B=0.531134,A=1.000000),ExpressionGUID=46812416477C13726681C1A77D7C854D)
+   BasePropertyOverrides=(BlendMode=BLEND_Translucent,OpacityMaskClipValue=0.333300)
+   ReferencedTextureGuids(0)=766C0EF04DF3BEFDEDA5E4A007303358
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=B22AD66341D46402E85F9C88CE92B04B
+End Object

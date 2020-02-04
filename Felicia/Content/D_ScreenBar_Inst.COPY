@@ -1,0 +1,17 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="D_ScreenBar_Inst"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=E7A814B148D5FA028832C49D65B6BF28
+   Parent=Material'"/Game/Deadbit/Materials/Decals/D_ScreenBar.D_ScreenBar"'
+   ScalarParameterValues(0)=(ParameterInfo=(Name="ScaleX"),ParameterValue=1.500000,ExpressionGUID=42D559664AB82CE5BED110BA73CA2211)
+   ScalarParameterValues(1)=(ParameterInfo=(Name="ScaleY"),ParameterValue=1.000000,ExpressionGUID=0406F8224BE553E7A7E580922AB038F5)
+   ScalarParameterValues(2)=(ParameterInfo=(Name="SpeedX"),ParameterValue=-0.400000,ExpressionGUID=2CE609E74367A7657AD00D851B04D920)
+   ScalarParameterValues(3)=(ParameterInfo=(Name="RefractionDepthBias"))
+   VectorParameterValues(0)=(ParameterInfo=(Name="Color"),ParameterValue=(R=0.113074,G=0.021267,B=0.145833,A=1.000000),ExpressionGUID=44FD776644409C4FC24CD3AF42BAE470)
+   BasePropertyOverrides=(BlendMode=BLEND_Translucent,OpacityMaskClipValue=0.333300)
+   ReferencedTextureGuids(0)=A9FAC6774D2943DAD21F828FDC2B69BA
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=9CB41E2848520520795F4A88C92A8D97
+End Object

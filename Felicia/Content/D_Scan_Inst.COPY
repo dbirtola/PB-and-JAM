@@ -1,0 +1,16 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="D_Scan_Inst"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=7CD7A4744865EFFFA4A93FA6996F5C83
+   Parent=Material'"/Game/Deadbit/Materials/Decals/D_Whiteboard.D_Whiteboard"'
+   ScalarParameterValues(0)=(ParameterInfo=(Name="RefractionDepthBias"))
+   VectorParameterValues(0)=(ParameterInfo=(Name="Primary Color"),ParameterValue=(R=0.000000,G=0.004647,B=0.005208,A=1.000000),ExpressionGUID=4F1D635B47C47A755778F2BBD3110B57)
+   VectorParameterValues(1)=(ParameterInfo=(Name="Secondary Color"),ParameterValue=(R=0.135417,G=0.173305,B=1.000000,A=1.000000),ExpressionGUID=556308D043AFF5A688AD6EB3DBBB6EC3)
+   TextureParameterValues(0)=(ParameterInfo=(Name="BaseTexture"),ParameterValue=Texture2D'"/Game/Deadbit/Materials/Textures/T_Barrier.T_Barrier"',ExpressionGUID=408DDD774FB7232FE46231ACF9850F1A)
+   BasePropertyOverrides=(BlendMode=BLEND_Translucent,OpacityMaskClipValue=0.333300)
+   ReferencedTextureGuids(0)=756190874788BBF92C499F863FBB6063
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=E03B311B40AFD499EA348EBE68801AE9
+End Object
